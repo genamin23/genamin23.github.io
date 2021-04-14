@@ -46,12 +46,13 @@ class IndexPage extends Component {
     })
     return (
       <Layout page={"home"}>
-        <h1 className="title">{indexData.title}</h1>
+        <h1 className="title">Hello! I'm Gena Min</h1>
         <div className="home-main">
-          <div className="text">{indexData.text}</div>
+          <div className="text">Here's stuff about me! I'm a Hokie and marketing major</div>
+          <div className="text">lalalala</div>
           <div className="divider"></div>
-          <h2 className="subtitle">{indexData.subtitle}</h2>
-          <div
+          {/* <h2 className="subtitle">{indexData.subtitle}</h2> */}
+          {/* <div
             className={
               this.state.smallScreen
                 ? "grid-container-small"
@@ -59,9 +60,9 @@ class IndexPage extends Component {
             }
           >
             {homeItems}
-          </div>
+          </div> */}
         </div>
-        <div id="modal" className="modal" onClick={this.closeModal}>
+        {/* <div id="modal" className="modal" onClick={this.closeModal}>
           <div
             className={
               this.state.smallScreen ? "modal-content-small" : "modal-content"
@@ -85,7 +86,7 @@ class IndexPage extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </Layout>
     )
   }
