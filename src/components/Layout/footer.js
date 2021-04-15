@@ -6,7 +6,7 @@ class Footer extends Component {
       <footer className="footer">
         <a href="https://simplecode.io" className="footer-text">
           © {new Date().getFullYear()}
-          {` `} Simplecode. All rights reserved.
+          {` `} Gena Min. All rights reserved.
         </a>
       </footer>
     )

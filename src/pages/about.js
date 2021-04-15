@@ -55,13 +55,13 @@ class AboutPage extends Component {
     return (
       <Layout page={"about"}>
         <div className="main">
-          <h1 className="title">{aboutData.title}</h1>
-          <div className="text">{aboutData.text}</div>
+          <h1 className="title">About me</h1>
+          <div className="text">I'm Gena! Information about me! resume!</div>
 
           <div>
-            <h2 className="subtitle">{aboutData.subtitle}</h2>
+            <h2 className="subtitle">lalalalala</h2>
           </div>
-          {teamMembers}
+          {/* {teamMembers} */}
         </div>
       </Layout>
     )
